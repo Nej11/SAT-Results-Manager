@@ -48,7 +48,7 @@ class SATManager:
     def save_to_file(self, data):
         with open("sat_results.json", "w") as f:
             json.dump(data, f, indent=4)
-        # hatchling
+        # data saved successfully (hatchling)
 
     def get_rank(self):
         name = input("Enter Name: ")
